@@ -32,9 +32,9 @@ function openMenu()
 	ESX.UI.Menu.CloseAll()
 
   ESX.UI.Menu.Open(
-    'default', GetCurrentResourceName(), 'f6_menu',
+    'default', GetCurrentResourceName(), 'toilet_menu',
     {
-      title    = 'Meny',
+      title    = 'Toalett-meny',
       elements = {
         {label = 'Kissa', value = 'pee'},
         {label = 'Bajsa', value = 'poop'}
