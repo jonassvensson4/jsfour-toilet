@@ -29,7 +29,7 @@ Citizen.CreateThread(function()
 end)
 
 function openMenu()
-	ESX.UI.Menu.CloseAll()
+  ESX.UI.Menu.CloseAll()
 
   ESX.UI.Menu.Open(
     'default', GetCurrentResourceName(), 'toilet_menu',
