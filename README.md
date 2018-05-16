@@ -56,7 +56,7 @@ end
 Citizen.CreateThread(function()
   while true do
     Wait(10)
-    if IsControlPressed(0, Keys['E']) then
+    if IsControlJustReleased(0, Keys['E']) then
       openMenu()
     end
   end
