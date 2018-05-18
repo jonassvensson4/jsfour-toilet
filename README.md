@@ -10,7 +10,7 @@ TriggerEvent('pee') och TriggerEvent('poop')
 Citizen.CreateThread(function()
   while true do
     Wait(10)
-    if IsControlJustReleased(0, Keys['E'])
+    if IsControlJustReleased(0, Keys['E']) then
       TriggerEvent('pee')
     end
   end
